@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2D Doom-Game Mobile</title>
+  <link rel="stylesheet" href="tack.css">
+</head>
+<body>
+  <div class="status-bar">
+    <span id="levelDisplay">Level: 1</span>
+    <span id="scoreDisplay">Score: 0</span>
+    <span id="healthDisplay">Health: 100</span>
+  </div>
+
+  <canvas id="gameCanvas"></canvas>
+
+  <div class="controls">
+    <button id="moveUp">⬆️</button>
+  </div>
+  <div class="controls">
+    <button id="moveLeft">⬅️</button>
+    <button id="moveDown">⬇️</button>
+    <button id="moveRight">➡️</button>
+    <div class="shoot-btn" id="shootButton">🔥</div>
+  </div>
+
+  <script src="tack.js"></script>
+</body>
+</html>
